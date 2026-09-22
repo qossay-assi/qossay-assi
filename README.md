@@ -35,6 +35,16 @@ These portfolio editions include later repairs, tests and documentation. Each RE
 
 Validation is scoped: Android packaging/signature checks passed, but a device run is still pending; the dealership database tests passed, but the native GUI was not interactively tested; the class-based SystemVerilog harness needs a compatible simulator. Reconstructed editions are not presented as the original university source code.
 
+## Networks, security and digital design
+
+| Project | What to explore | Tools |
+| --- | --- | --- |
+| [Smart Home IoT Simulation](https://github.com/qossay-assi/smart-home-iot-simulation) | Team project with Rami Arqoub; recovered simulation source, 185 archived runs and tested data validation | C++, OMNeT++, INET, Python |
+| [Cybersecurity Labs](https://github.com/qossay-assi/cybersecurity-labs) | Reconstructed local CBC/RSA/PKI experiments and offline TCP/DNS/ACL analysis with provenance | Python, cryptography, Scapy |
+| [Structural Multiplier Verification](https://github.com/qossay-assi/structural-multiplier-verification) | New implementation from a recovered coursework objective; two adder architectures with exhaustive RTL verification | Verilog, Icarus Verilog |
+
+IoT table checks passed; the simulator was not rerun during publication. Security exercises use local synthetic fixtures. Multiplier tests establish functional behavior, not FPGA timing or hardware measurements.
+
 ## Focus
 - Applying machine learning to signals and images.
 - Connecting software concepts with embedded and digital systems.
